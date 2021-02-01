@@ -38,6 +38,12 @@ python main.py
 pypy main.py
 jython main.py
 ```
+### Pythran
+```
+cd pythran
+pythran -march=native -Ofast -DNDEBUG adapt.py
+python main.py
+```
 ## Julia
 I use [BenchmarkTools](https://github.com/JuliaCI/BenchmarkTools.jl) to perform the benchmark
 ```
